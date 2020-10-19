@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.3.0 (2020-10-19)
+
+
+### Features
+
+* textos y contenido estático ([46c2d75](https://github.com/AtomicBuilders/abanca-oop/commit/46c2d7512e51cba06740efc6c658927cde677d69))
+
 ### [1.2.1](https://github.com/AtomicBuilders/proton/compare/v1.2.0...v1.2.1) (2020-10-19)
 
 ## [1.2.0](https://github.com/AtomicBuilders/proton/compare/v1.1.0...v1.2.0) (2020-10-19)
