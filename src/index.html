@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Abanca OOP</title>
+    <meta name="author"
+          content="Alberto Basalo" />
+    <meta name="description"
+          content="Abanca O.O.P." />
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+          href="./layout-flex.css"
+          type="text/css"
+          media="screen"
+          charset="utf-8" />
+    <link rel="stylesheet"
+          href="./typography.css"
+          type="text/css"
+          media="screen"
+          charset="utf-8" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Comfortaa|Lato" />
+  </head>
+
+  <body>
+    <header>
+      <h1>O.O.P.</h1>
+    </header>
+    <main>
+      <nav>
+        <a href="https://github.com/LabsAdemy/abanca-oop">Repositorio</a>
+        <a href="">To Do: presentación</a>
+      </nav>
+      <section>
+        <article>
+          <header>
+            <h2>Cuentas Procedimentales</h2>
+            <div>cuenta: <b id="iban"></b></div>
+            <div>saldo: <b id="saldo"></b>€</div>
+          </header>
+          <main>
+            <form>
+              <legend>Realiza Operaciones:</legend>
+              <input id="cantidad"
+                     type="number">
+              <input id="botonIngresar"
+                     type="button"
+                     value="Ingresar">
+              </input>
+            </form>
+          </main>
+          <footer>Use it as a base for web TypeScript projects</footer>
+        </article>
+      </section>
+      <aside>
+        <header>
+          <h3>Movimientos</h3>
+        </header>
+        <ul id="movimientos">
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>Por <a href="https://twitter.com/albertobasalo">Alberto Basalo</a>
+        para <a href="https://www.vitae.com"> Vitae</p>
+      <hr>
+    </footer>
+    <script src="./main.ts"
+            type="module"></script>
+    <noscript>Enable JavaScript for full features</noscript>
+  </body>
+
+</html>
